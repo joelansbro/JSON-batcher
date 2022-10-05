@@ -30,8 +30,25 @@ Instructions:
 
 3. Enjoy the output json
 
-JSON should save down into the /data/ folder.
+JSON should save down into the /data/ folder as individual files, in the following format:
 
-4. Within the pipeline repository, run `bash runjob.sh` to start the pipeline (check repo README.md for installation)
+```
+title
+author
+date_published
+dek
+lead_image_url
+content
+next_page_url
+url
+domain
+excerpt
+word_count
+direction
+total_pages
+rendered_pages
+```
 
-5. Within this repo, run `send_payload.py`
+4. Within the pipeline repository, run `bash runjob.sh` to start the pipeline (check pipeline README.md for installation).
+
+5. Within this repo, run `send_payload.py --url --project` where the url points to the inbound API endpoint route (the default is `inbound/add_article`) and project designates the specific project name (default is `None`, so ensure you specify one particularly if you hope to store multiple projects within the same database)
