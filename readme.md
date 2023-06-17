@@ -52,3 +52,6 @@ rendered_pages
 4. Within the pipeline repository, run `bash runjob.sh` to start the pipeline (check pipeline README.md for installation).
 
 5. Within this repo, run `send_payload.py --url --project` where the url points to the inbound API endpoint route (the default is `inbound/add_article`) and project designates the specific project name (default is `None`, so ensure you specify one particularly if you hope to store multiple projects within the same database)
+
+
+6. The Rss feed link will gather most recent articles from the blogs and show them, then at this point we need to request the URLS, save them down and pass them to the pipeline
