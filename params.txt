@@ -1,1 +1,14 @@
-# Insert blog urls within this file!
+https://medium.com/nerd-for-tech/python-is-a-bad-programming-language-2ab73b0bda5
+https://gist.github.com/RobertAKARobin/a1cba47d62c009a378121398cc5477ea
+https://www.hackerfactor.com/blog/index.php?/archives/825-8-Reasons-Python-Sucks.html
+https://medium.com/@NathanCarnegie/the-worst-programming-language-ever-java-3b7d62499b39
+https://thenextweb.com/news/universities-finally-realize-java-bad-introductory-programming-language
+https://www.forbes.com/sites/quora/2015/02/21/java-makes-programmers-want-to-do-absolutely-anything-else-with-their-time/
+https://geometrian.com/programming/tutorials/javabad/index.php
+https://www.theckmprospector.com/?p=2272
+https://levelup.gitconnected.com/experienced-developers-use-these-telltale-signs-to-reveal-bad-java-developers-290c3e9cc472?gi=3dd050597fdc
+https://medium.com/@ilegra/the-dark-side-of-rust-language-4fe2b9c2faf3
+https://chrisdone.com/posts/rust/
+https://medium.com/codex/c-is-dying-fa21a96107c5
+https://catern.com/docker.html
+https://www.infoworld.com/article/3632142/how-docker-broke-in-half.html

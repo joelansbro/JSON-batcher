@@ -20,14 +20,18 @@ def prepare_json_payload(project_name):
         
         for f in files:
             with open(os.path.abspath(f)) as json_file:
-                
+                try:
+                    json_to_pass = json.load(json_file)
+                except:
+                    print("There's an error here below:")
+                    print(json_file)
+                    continue
                 data = clean_json(
-                    json.load(json_file),
+                    json_to_pass,
                     project_name
                     )
                 
                 all_files.append(data)
-                print(all_files)
 
     return all_files
 
@@ -64,5 +68,4 @@ if __name__=='__main__':
 
     for file in files_list:
         response = make_request(url, file)
-        print(response)
         time.sleep(1)
